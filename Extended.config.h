@@ -47,18 +47,18 @@
 // These settings are stored in NV (EEPROM) and the SWS will not recognize the settings below except on the first upload unless
 // NV is wiped, these settings (where applicable) can be changed at runtime however.
 #define AP_ENABLED                   true //        true, Wifi Access Point Enabled.                                          Adjust
-#define AP_SSID                  "ONSTEP" //    "ONSTEP", Wifi Access Point SSID.                                             Adjust
-#define AP_PASSWORD            "password" //  "password", Wifi Access Point password.                                         Adjust
+#define AP_SSID                  "ONSTEP-J" //    "ONSTEP", Wifi Access Point SSID.                                             Adjust
+#define AP_PASSWORD            "0897014541" //  "password", Wifi Access Point password.                                         Adjust
 #define AP_CHANNEL                      7 //           7, Wifi Access Point channel.                                          Adjust
 #define AP_IP_ADDR          {192,168,0,1} // ..,168,0,1}, Wifi Access Point IP Address.                                       Adjust
 #define AP_GW_ADDR          {192,168,0,1} // ..,168,0,1}, Wifi Access Point GATEWAY Address.                                  Adjust
 #define AP_SN_MASK        {255,255,255,0} // ..55,255,0}, Wifi Access Point SUBNET Mask.                                      Adjust
 
-#define STA_ENABLED                 false //       false, Wifi Station Enabled.                                               Adjust
-#define STA_SSID                   "Home" //      "Home", Wifi Station SSID to connnect to.                                   Adjust
-#define STA_PASSWORD           "password" //  "password", Wifi Station mode password.                                         Adjust
+#define STA_ENABLED                 true //       false, Wifi Station Enabled.                                               Adjust
+#define STA_SSID                   "MY_HOME_2.4GHz" //      "Home", Wifi Station SSID to connnect to.                                   Adjust
+#define STA_PASSWORD           "0897014541" //  "password", Wifi Station mode password.                                         Adjust
 #define STA_DHCP_ENABLED            false //       false, Wifi Station/Ethernet DHCP Enabled.                                 Adjust
-#define STA_IP_ADDR        {192,168,1,55} // ..168,1,55}, Wifi Station/Ethernet IP Address.                                   Adjust
+#define STA_IP_ADDR        {192,168,1,133} // ..168,1,55}, Wifi Station/Ethernet IP Address.                                   Adjust
 #define STA_GW_ADDR         {192,168,1,1} // ..,168,1,1}, Wifi Station/Ethernet GATEWAY Address.                              Adjust
 #define STA_SN_MASK       {255,255,255,0} // ..55,255,0}, Wifi Station/Ethernet SUBNET Mask.                                  Adjust
 
