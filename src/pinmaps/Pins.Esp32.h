@@ -4,13 +4,13 @@
 
 // locate WeMos D1 R32 serial port pins to match WeMos D1 Mini main and swapped port pins
 #ifndef SERIAL_RX
-  #define SERIAL_RX          1
+  #define SERIAL_RX          13//1
 #endif
 #ifndef SERIAL_TX
-  #define SERIAL_TX          3
+  #define SERIAL_TX          5//3
 #endif
 #ifndef SERIAL_SWAPPED_RX
-  #define SERIAL_SWAPPED_RX  23
+  #define SERIAL_SWAPPED_RX  13//23
 #endif
 #ifndef SERIAL_SWAPPED_TX
   #define SERIAL_SWAPPED_TX  5
